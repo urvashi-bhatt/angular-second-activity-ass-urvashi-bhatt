@@ -1,6 +1,6 @@
 This is a simple Counter Application in Angular 11.
 
-![alt text](..\src\assets\output.PNG)
+![alt text](https://github.com/urvashi-bhatt/angular-second-activity-ass-urvashi-bhatt/blob/master/src/assets/output.PNG)
 
 # AngularSecondActivityAssUrvashiBhatt
 
