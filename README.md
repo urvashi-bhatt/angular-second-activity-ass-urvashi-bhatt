@@ -1,3 +1,7 @@
+This is a simple Counter Application in Angular 11.
+
+![alt text](..\src\assets\output.PNG)
+
 # AngularSecondActivityAssUrvashiBhatt
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.

@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-    <div class="row">
-      <button (click)="increment()">+</button>
-      <input type="number" value="{{counter}}" placeholder="{{counter}}">
-      <button [disabled]="isDisabled" (click)="decrement()">-</button>
-    </div>
-</body>
-</html>
+<div class="container text-center mt-5 col-md-7">
+  <h1>{{countNumber}}</h1>
+<div class="row mt-5">
+  <div class="col-md-4 mt-2">
+    <button class="btn col-md-12 col-12 btn-dark" (click)="resetBtn()">Reset</button>
+  </div>
+  <div class="col-md-4 mt-2">
+    <button class="btn col-md-12 col-12 btn-success" (click)="increaseBtn()">Increase count (+)</button>
+  </div>
+  <div class="col-md-4 mt-2">
+    <button class="btn col-md-12 col-12 btn-danger" (click)="decreaseBtn()">Decrease count (-)</button>
+  </div>
+</div>
+</div>

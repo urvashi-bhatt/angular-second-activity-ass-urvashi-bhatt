@@ -8,20 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class FoodcountComponent implements OnInit {
 
   constructor() { }
-  public counter : number = 0;
-
-    
-  increment(){
-    this.counter += 1;
-  }
-  
-  decrement(){
-    this.counter -= 1;
-  }
-
   
   ngOnInit(): void {
-    
   }
 
+  countNumber = 0;
+  
+  resetBtn(){
+    this.countNumber = 0;
+  }
+  
+  increaseBtn(){
+    this.countNumber = this.countNumber + 1;
+  }
+
+  decreaseBtn(){
+    this.countNumber = this.countNumber -1;
+    if(this.countNumber < 0){
+      this.countNumber = 0;
+    }
+  }
 }
